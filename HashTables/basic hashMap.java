@@ -8,8 +8,12 @@ Integer as input:
 a. Key mod Tablesize(if the integer ends 0 and tablesize is 10 it is bad), to solve it make sure tablesize is a prime number?.
 String as input:
 // ** Note
-a. ASCII code ???
-b. Honer formula ???
+a. ASCII code
+	Example:
+	– Add ASCII codes for characters mod, 255 will give values in [ 0, 256 ) or [ 0, 255 ]
+	– Replace + by xor
+b. Honer formula
+http://www.cs.princeton.edu/~rs/AlgsDS07/10Hashing.pdf
 // ** Note
 Object as input:
 2. Need for resizing(because of collision)
